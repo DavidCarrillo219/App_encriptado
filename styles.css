@@ -166,7 +166,7 @@
     top: 15%;
 }
 
-@media (max-widdth:57.5em) {
+@media (max-width:100em) {
     .container{
         display: flex;
         flex-direction: row;
@@ -218,3 +218,12 @@
         visibility: hidden;
     }
 }
+
+@media (max-width: 600px) {
+    .mensaje-encriptado p{
+        font-size: 14px;
+        word-wrap: break-word;
+        width: 100%;
+        padding: 10px;
+    }
+} 
