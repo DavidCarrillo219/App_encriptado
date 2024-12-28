@@ -166,7 +166,7 @@
     top: 15%;
 }
 
-@media (max-width:100em) {
+@media (max-width:54.5em) {
     .container{
         display: flex;
         flex-direction: row;

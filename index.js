@@ -18,7 +18,7 @@ function encriptar(){
         muñeco.src = "img/muñeco.png";
         titutloMensaje.textContent = "Ningun texto ingresado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-        alert("Debes ingresar algun texto");
+        swal("Ooops!", "Debes ingresar algun texto","warning");
     }
 }
 
@@ -43,6 +43,6 @@ function desencriptar(){
         muñeco.src = "img/muñeco.png";
         titutloMensaje.textContent = "Ningun texto ingresado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-        alert("Debes ingresar algun texto");
+        swal("Ooops!", "Debes ingresar algun texto","warning");
     }   
 }
